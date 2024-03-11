@@ -1,3 +1,11 @@
+/* global class*/
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body{
     color: rgb(38, 38, 91);
     margin: 0;
@@ -16,7 +24,7 @@ body{
     
 }
 
-.wrap_content{
+.wrap_header{
     position: absolute;
     left: 271px;
     right: 271px;
@@ -101,18 +109,12 @@ body{
     height: 52px;
     background-color: rgb(134, 106, 227);
     color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-right: 30px;
 }
 
 .header_button-readmore{
     width: 111px;
     height: 49.6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-bottom: 2.4px solid rgb(38, 38, 91); 
 }
 
@@ -127,22 +129,89 @@ body{
     background-color: #e7e0e0;
     display: flex;
     justify-content: space-around;
+    margin: 0 271px 0 271px;
 }
 
-.banner_infomation{
+.banner_info{
     width: 200px;
     height: 182px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
+    
 }
 
-.banner_infomation-quantity{
+.banner_info-quantity{
     font-size: 52px;
-    margin-bottom: 6px;
+    position: relative;
+    top: 30px;
+    margin: 0;
 }
 
-.banner_infomation-subject{
+.banner_info-subject{
     font-size: 18px;
+    position: relative;
+    top: 40px;
+    flex-direction: column;
+    margin: 0;
 }
+
+.banner_info-subject--word{
+    margin: 0;
+}
+
+/* My work */
+.contOne{
+    margin: 0 271px 0 271px;
+    display: flex;
+}
+
+.contOne_le{
+    margin: 128px 0 0 0;
+    position: relative;
+}
+
+.block{
+    width: 105px;
+    height: 5px;
+    background-color: rgb(134,106, 227);
+    position: absolute;
+    top: -30px;
+}
+
+.contOne_le-title{
+    font-size: 32px;
+    line-height: 41.6px;
+    margin: 0;
+}
+
+.contOne_le-para{
+    font-size: 18px;
+    line-height: 27px;
+    margin: 18.8px 0 48px 0;
+}
+
+.contOne_le-button{
+    width: 216px;
+    height: 52px;
+    background-color: rgb(134,106, 227);
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+}
+
+.contOne_ri{
+ 
+}
+
+.contOne_img{
+    margin: 68px 0 0 70px;
+}
+
+.contOne_ri-para{
+
+}
+
+.contOne_ri-icon{
+    
+}
+
+
+
