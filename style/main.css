@@ -19,7 +19,7 @@ body{
 /*Header*/
 #header{
     position: relative; 
-    background-image: url("/Img/background.png");
+    background-image: url("../Img/background.png");
     height: 100vh;
     
 }
@@ -173,6 +173,9 @@ body{
     width: 105px;
     height: 5px;
     background-color: rgb(134,106, 227);
+}
+
+.blockOne{
     position: absolute;
     top: -30px;
 }
@@ -198,20 +201,102 @@ body{
 }
 
 .contOne_ri{
- 
+    position: relative;
 }
 
-.contOne_img{
+.contOne_ri-img{
     margin: 68px 0 0 70px;
 }
 
+.contOne_ri-follow{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    margin-top: 16px;
+}
 .contOne_ri-para{
-
+    font-size: 18px;
+    margin: 0;
+    background-color: rgb(159, 172, 172);
+    line-height: 30px;
+    width: 217px;
+    text-align: right;
+    padding: 0 16px 0 0;
 }
 
 .contOne_ri-icon{
-    
+    list-style-type: none;
+    font-size: 31px;
+    color: rgb(134,106, 227);
+    display: flex;
+    margin: 0;
+}
+
+.contOne_ri-in{
+    margin: 0 30px;
+}
+
+.contTwo{
+    margin: 93px 271px 0 271px;
+    position: relative;
+}
+
+.contTwo_ti{
+    font-size: 32px;
+    text-align: center;
+}
+
+.contTwo_con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contTwo_po{
+    flex-direction: column;
+}
+
+.contTwo_po-num{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #d6d4d4;
+    position: relative;
+    top: 37px;
+    left: -4px;
+    font-size: 20px;
+}
+
+.contTwo_po-cir{
+    background: #d6d4d4;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
 }
 
 
 
+.contTwo_po-icon{
+    font-size: 50px;
+}
+
+.contTwo_po-ti{
+    font-size: 20px;
+}
+
+.contTwo_po-pa{
+    font-size: 16px;
+    width: 270px;
+    height: 120px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contTwo_block{
+    display: flex;
+}
+
+.contThree{
+    height: 337px;
+    background-color: rgba(221, 211, 255, 0.7);
+}
