@@ -294,6 +294,7 @@ body{
 
 .contTwo_block{
     display: flex;
+    justify-content: center;
 }
 
 .contThree{
