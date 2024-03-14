@@ -24,6 +24,33 @@ body{
     
 }
 
+.header_talk{
+    width: 214px;
+    height: 182px;
+    background-color: white;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 1px 5px 20px rgba(78,78,128,0.1);
+    font-size: 32px;
+    position: absolute;
+    top: 300px;
+    right: 273px;
+    z-index: 1;
+    text-align: center;
+}
+
+.header_hi{
+    width: 144px;
+    height: 152px;
+    background-color: rgb(255, 203, 102);
+    border-top-left-radius: 900px;
+    border-top-right-radius: 900px;
+    border-bottom-right-radius: 900px;
+
+}
+
 .wrap_header{
     position: absolute;
     left: 271px;
@@ -450,7 +477,7 @@ body{
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 1px;
     position: relative;
-    margin-bottom: 50px;
+    margin: 0 0 50px 16px;
 }
 
 .contSix_commentDes{
@@ -516,4 +543,152 @@ body{
     display: relative;
     height: 223px;
     margin-bottom: 50px;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.circleOne{
+    position: absolute;
+    left: -16px;
+    top: 30px;
+    background-color: rgb(67, 210, 22);
+}
+
+.circleTwo{
+    position: absolute;
+    left: 151px;
+    top: 13px;
+    background-color: #ff9db6;
+}
+
+.CircleThree{
+    position: absolute;
+    background-color: #866ae3;
+    bottom: 34px;
+    left: 166px;
+}
+
+.contSeven{
+    flex-direction: column;
+    position: relative;
+}
+
+.contSeven_wrap{
+    height: 521px;
+    width: 616px;
+    background-color: #ffcb66;
+    flex-direction: column;
+    position: absolute;
+    bottom: 109px;
+    z-index: -1;
+}
+
+.contSeven_status{
+    font-size: 21px;
+    color: #866ae3;
+    display: flex;
+    justify-content: center;
+}
+
+.contSeven_statusPa{
+    margin-right: 12px;
+}
+
+.contSeven_statusIcon{
+    font-size: 25px;
+}
+
+.contSevenSignUp{
+    width: 373px;
+    padding: 20px 20px;
+    background-color: #dde9b3;
+    color: #9d9db9;
+    flex-direction: column;
+    margin-top: 36px;
+}
+
+.contSevenSignUp_wrap{
+    margin-bottom: 8px;
+}
+
+.contSevenSignUp-name{
+    background-color: white;
+}
+
+.contSevenSignUp-namePa{
+    font-size: 14px;
+    display: block;
+}
+
+.contSevenSignUp-nameIn{
+    border-top: 0;
+    border-bottom: 2px solid #9d9db9;
+    border-left: 0;
+    border-right: 0;
+    width: 373px;
+    height: 39.4px;
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-style: inset;
+    padding: 0;
+}
+
+.contSevenSignUp-nameIn:focus{
+    outline: none;
+}
+
+.contSevenSignUp-nameIn--Date{
+    color: #9d9db9;;
+}
+
+.contSevenSignUp-nameIn--Mes{
+    padding-top: 10px;
+    width: 363px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    height: 48.4px;
+    padding-right: 5px; 
+    border: 0;
+}
+
+.contSevenSignUp-nameIn--Mes:focus{
+    outline: none;
+}
+
+.contSevenSignUp_CB{
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.blockWater{
+    width: 261px;
+    height: 248px;
+    background-color: brown;
+    z-index: 1;
+    border-top-left-radius: 900px;
+    border-top-right-radius: 900px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 900px;
+    position: absolute;
+    left: 0;
+    bottom: 146px;
+}
+
+.contSeven_circle{
+    width: 57px;
+    height: 57px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    left: 201px;
+    bottom: 339px;
+    z-index: 2;
 }
