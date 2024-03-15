@@ -36,7 +36,7 @@ body{
     font-size: 32px;
     position: absolute;
     top: 300px;
-    right: 273px;
+    right: 256px;
     z-index: 1;
     text-align: center;
 }
@@ -48,7 +48,38 @@ body{
     border-top-left-radius: 900px;
     border-top-right-radius: 900px;
     border-bottom-right-radius: 900px;
+    position: absolute;
+        top: 18px;
+    right: 270px;
+    z-index: 1;
 
+}
+
+.header_hi-icon{
+    font-size: 60px;
+    color: white;
+}
+
+.header_li{
+    width: 100px;
+    height: 108px;
+    border: 4px solid white;
+    border-top-left-radius: 900px;
+    border-bottom-left-radius: 900px;
+    border-bottom-right-radius: 900px;
+    position: absolute;
+    top: 212px;
+    right: 670px;
+    z-index: 1;
+}
+
+.header_block{
+    width: 491px;
+    height: 307px;
+    background-image: linear-gradient(rgba(95, 255, 255, 0.1), rgb(87, 238, 249));
+    position: absolute;
+    right: 334px;
+    top: 157px;
 }
 
 .wrap_header{
@@ -89,6 +120,10 @@ body{
     
 }
 
+.header_description-list{
+    padding-left: 16px;
+}
+
 .header_description-tilte{
     font-size: 51px;
     line-height: 61.2px;
@@ -107,9 +142,12 @@ body{
 
 /* Meeting schedule*/
 .header_schedule{
-    margin: 20px 0 20px 0;
+    margin: 36px 0 36px 0;
     font-size: 19px;
     line-height: 24.7px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
 }
 
 .header_schedule-paragraph{
@@ -117,7 +155,17 @@ body{
 }
 
 .header_schedule-time{
+    margin-left: 10px;
+}
+
+.header_schedule-timeStyle{
+    display: block;
+    line-height: 42px;
     font-weight: 700;
+    width: 313px;
+    height: 42px;
+    padding: 12px;
+    background-image: linear-gradient(90deg, #ffe1e4, rgba(208, 188, 255, 0.41)); 
 }
 
 .header_schedule-time--red{
@@ -130,13 +178,16 @@ body{
     display: flex;
 }
 
-
 .button_signin{
     width: 216px;
     height: 52px;
     background-color: rgb(134, 106, 227);
     color: rgb(255, 255, 255);
     font-size: 19px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 .header_button-readmore{
@@ -154,10 +205,11 @@ body{
 /* Banner */
 .banner{
     height: 182px;
-    background-color: #e7e0e0;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-around;
     margin: 0 271px 0 271px;
+    box-shadow: 1px 5px 20px rgba(78,78,128,0.1);
 }
 
 .banner_info{
@@ -222,10 +274,20 @@ body{
 
 .contOne_ri{
     position: relative;
+    margin-left: 60px;
+}
+
+.contOne_ri-block{
+    width: 481px;
+    height: 359px;
+    background-image: linear-gradient(201deg, #43d2dc, #fff9ea);
+    z-index: -1;
+    position: absolute;
+    top: 98px;
 }
 
 .contOne_ri-img{
-    margin: 68px 0 0 70px;
+    margin: 68px 0 0 36px;
 }
 
 .contOne_ri-follow{
@@ -238,7 +300,7 @@ body{
 .contOne_ri-para{
     font-size: 18px;
     margin: 0;
-    background-color: rgb(159, 172, 172);
+    background-image: linear-gradient(-90deg, #bccefb, #ece9ff);
     line-height: 30px;
     width: 217px;
     text-align: right;
@@ -257,8 +319,12 @@ body{
     margin: 0 30px;
 }
 
-.contTwo{
-    margin: 68px 271px 96px 271px;
+.contTwo{   
+    padding: 48px 0 48px 0;
+}
+
+.contTwo_wrap{
+    margin: 0 271px 0 271px;
     position: relative;
 }
 
@@ -281,28 +347,39 @@ body{
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background: #d6d4d4;
+    background: #ffffff;
     position: relative;
     top: 37px;
     left: -4px;
     font-size: 20px;
+    box-shadow: 2px 5px 20px rgba(78,78,128,0.16);
 }
 
 .contTwo_po-cir{
-    background: #d6d4d4;
+    background: #ffffff;
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    box-shadow: 2px 5px 20px rgba(78,78,128,0.16);
 }
 
 .contTwo_po-img{
 
 }
 
-
-
-.contTwo_po-icon{
+.contTwo_po-icon1{
     font-size: 50px;
+    color: orangered;
+}
+
+.contTwo_po-icon2{
+    font-size: 50px;
+    color: purple;
+}
+
+.contTwo_po-icon3{
+    font-size: 50px;
+    color: green;
 }
 
 .contTwo_po-ti{
@@ -325,19 +402,37 @@ body{
 
 .contThree{
     height: 337px;
-    background-color: rgba(221, 211, 255, 0.7);
+    background-image: url(../Img/background.png);
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.contThree_blockWater{
+    position: absolute;
+    bottom: 0;
+    left: 271px;
+
 }
 
 .conThree_box{
     width: 616px;
     height: 264px;
-    background-color: #ffcb66;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), #ffcb66);
     display: flex;
     align-items: center;
     flex-direction: column;
     position: relative;
+}
+
+.contThree_box-cir{
+    background-color: pink;
+    position: absolute;
+    right: -30px;
+    top: 60px;
+    padding: 10px 10px;
+    background-image: linear-gradient(180deg, #ffe6e8, #ff9db6);
+    box-shadow: 1px 6px 11px rgba(143,154,176,0.56);
 }
 
 .contThree_ti{
@@ -350,18 +445,19 @@ body{
     justify-content: space-between;
     width: 288px;
     height: 81px;
+    z-index: 1;
 }
 
 .contThree_time{
     flex-direction: column;
-    
 }
 
 .contThree_time-number{
-    width: 50px;
-    height: 50px;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
     background-color: #26265b;
+    box-shadow: 1px 4px 20px rgba(85,0,134,0.31);
     color: white;
     font-size: 32px;
     font-weight: 700;
@@ -385,12 +481,12 @@ body{
 .contFour_block{
     height: 120px;
     width: 160px;
-    background-color: rgba(134, 106, 227, 0.26);
     z-index: -1;
 }
 
 .contFour_blockOne{
     position: absolute;
+    background-image: linear-gradient(183deg, rgba(95, 255, 255, 0.1), rgba(134, 106, 227, 0.26));
     top: -18px;
     left: -18px;
 }
@@ -398,17 +494,19 @@ body{
 .contFour_blockTwo{
     position: absolute;
     top: -18px;
-}
-
-.contFour_img2{
-    display: flex;
-    justify-content: center;
+    background-image: linear-gradient(90deg, rgba(95, 255, 255, 0.1), rgba(134, 106, 227, 0.26));
 }
 
 .contFour_blockThree{
     position: absolute;
     top: -18px;
     right: -18px;
+    background-image: linear-gradient(183deg, rgba(95, 255, 255, 0.1), rgba(134, 106, 227, 0.26));
+}
+
+.contFour_img2{
+    display: flex;
+    justify-content: center;
 }
 
 .contFive{
@@ -429,7 +527,7 @@ body{
 .contFive_boxNu{
     width: 122px;
     height: 59px;
-    background-color: rgba(134,106,227,0.26);
+    background-image: linear-gradient(90deg, rgba(95, 255, 255, 0.1), rgba(134, 106, 227, 0.26));
     display: flex;
     align-items: center;
     justify-content: right;
@@ -471,7 +569,8 @@ body{
     align-items: center;
     width: 700px;
     height: 223px;
-    background-color: #e3e3e3;
+    background-color: #ffffff;
+    box-shadow: 1px 5px 20px rgba(78,78,128,0.16);
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
@@ -494,6 +593,7 @@ body{
     position: absolute;
     top: 24px;
     left: 25px;
+    box-shadow: 1px 5px 20px rgba(38,38,91,0.16);
 }
 
 .contSix_commentDes{
@@ -517,7 +617,8 @@ body{
     align-items: center;
     width: 700px;
     height: 223px;
-    background-color: #e3e3e3;
+    background-color: #ffffff;
+    box-shadow: 1px -5px 20px rgba(78,78,128,0.16);
     border-top-left-radius: 100px;
     border-top-right-radius: 1px;
     border-bottom-left-radius: 100px;
@@ -540,7 +641,6 @@ body{
 }
 
 .contSix_comment-wrap{
-    display: relative;
     height: 223px;
     margin-bottom: 50px;
 }
@@ -556,21 +656,24 @@ body{
     position: absolute;
     left: -16px;
     top: 30px;
-    background-color: rgb(67, 210, 22);
+    background-image: linear-gradient(180deg, #ffe6e8, #43d2dc);
+    box-shadow: 1px 6px 11px rgba(143,154,176,0.56);
 }
 
 .circleTwo{
     position: absolute;
     left: 151px;
     top: 13px;
-    background-color: #ff9db6;
+    background-image: linear-gradient(180deg, #ffe6e8, #ff9db6);
+    box-shadow: 1px 6px 11px rgba(143,154,176,0.56);
 }
 
 .CircleThree{
     position: absolute;
-    background-color: #866ae3;
+    background-image: linear-gradient(180deg, #ffe6e8, #866ae3);
     bottom: 34px;
     left: 166px;
+    box-shadow: 1px 6px 11px rgba(143,154,176,0.56);
 }
 
 .contSeven{
@@ -581,11 +684,10 @@ body{
 .contSeven_wrap{
     height: 521px;
     width: 616px;
-    background-color: #ffcb66;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), #ffcb66);
     flex-direction: column;
     position: absolute;
     bottom: 109px;
-    z-index: -1;
 }
 
 .contSeven_status{
@@ -606,10 +708,16 @@ body{
 .contSevenSignUp{
     width: 373px;
     padding: 20px 20px;
-    background-color: #dde9b3;
+    background-color: #ffffff;
     color: #9d9db9;
     flex-direction: column;
     margin-top: 36px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 2px 10px rgba(0,0,0,0.15);
+    z-index: 1;
 }
 
 .contSevenSignUp_wrap{
@@ -671,12 +779,15 @@ body{
 .blockWater{
     width: 261px;
     height: 248px;
-    background-color: brown;
-    z-index: 1;
+    z-index: 3;
     border-top-left-radius: 900px;
     border-top-right-radius: 900px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 900px;
+    background-image: linear-gradient(326deg, rgba(255, 255, 255, 0.17), rgba(255, 255, 255, 0.64));
+}
+
+.footer_blockWater{
     position: absolute;
     left: 0;
     bottom: 146px;
@@ -691,4 +802,10 @@ body{
     left: 201px;
     bottom: 339px;
     z-index: 2;
+    background-image: linear-gradient(197deg, #ffe6e8, #43d2dc);
+    box-shadow: 1px 6px 11px rgba(143,154,176,0.56);
+}
+
+.footer_background{
+    background-image: url(../Img/background.png);
 }
