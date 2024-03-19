@@ -1,19 +1,17 @@
 /* global class*/
 
+*{
+    box-sizing: border-box;
+    color: rgb(38, 38, 91);
+    margin: 0;
+    font-family: montserrat;
+    font-size: 16px;
+}
+
 .center{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-body{
-    color: rgb(38, 38, 91);
-    margin: 0;
-    font-family: monospace;
-}
-
-#container{
-    
 }
 
 /*Header*/
@@ -21,7 +19,7 @@ body{
     position: relative; 
     background-image: url("../Img/background.png");
     height: 100vh;
-    
+    width: 100vw;
 }
 
 .header_talk{
@@ -33,7 +31,7 @@ body{
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     box-shadow: 1px 5px 20px rgba(78,78,128,0.1);
-    font-size: 32px;
+    font-size: 2rem;
     position: absolute;
     top: 300px;
     right: 256px;
@@ -49,14 +47,14 @@ body{
     border-top-right-radius: 900px;
     border-bottom-right-radius: 900px;
     position: absolute;
-        top: 18px;
+    top: 18px;
     right: 270px;
     z-index: 1;
 
 }
 
 .header_hi-icon{
-    font-size: 60px;
+    font-size: 4rem;
     color: white;
 }
 
@@ -105,13 +103,14 @@ body{
 
 /*Logo */
 .logo{
-    font-size: 22px;
+    font-size: 1.5rem;
     line-height: 28.6px;
     margin: 60px 0 80px 0;
 }
 
 .logo_second{
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 
@@ -159,7 +158,8 @@ body{
 }
 
 .header_schedule-timeStyle{
-    display: block;
+    display: flex;
+    align-items: center;
     line-height: 42px;
     font-weight: 700;
     width: 313px;
@@ -170,6 +170,14 @@ body{
 
 .header_schedule-time--red{
     color: rgb(255, 91, 102);
+}
+
+.header_schedule-time--alignDay{
+    margin-right: 8px;
+}
+
+.header_schedule-time--alignNum{
+    margin-left: 8px;
 }
 
 /* Button of header*/
@@ -240,7 +248,7 @@ body{
 
 /* My work */
 .contOne{
-    margin: 0 271px 96px 271px;
+    margin: 0 271px 40px 271px;
     display: flex;
 }
 
@@ -253,6 +261,7 @@ body{
     width: 105px;
     height: 5px;
     background-color: rgb(134,106, 227);
+    margin-bottom: 32px;
 }
 
 .blockOne{
@@ -320,7 +329,7 @@ body{
 }
 
 .contTwo{   
-    padding: 48px 0 48px 0;
+    padding: 50px 0 50px 0;
 }
 
 .contTwo_wrap{
@@ -555,10 +564,6 @@ body{
     line-height: 1.5;
 }
 
-.contFive_button{
-    margin-top: 36px;
-}
-
 .contSix{
     
 }
@@ -576,7 +581,11 @@ body{
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 1px;
     position: relative;
-    margin: 0 0 50px 16px;
+    margin-left: 16px;
+}
+
+.contSix_commentSpace{
+    margin-bottom: 50px;
 }
 
 .contSix_commentDes{
@@ -706,7 +715,6 @@ body{
 }
 
 .contSevenSignUp{
-    width: 373px;
     padding: 20px 20px;
     background-color: #ffffff;
     color: #9d9db9;
