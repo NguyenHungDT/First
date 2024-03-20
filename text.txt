@@ -1,0 +1,482 @@
+ <div id="main">
+                <!-- banner -->
+                <div class="banner">
+                    <div class="banner_info">
+                        <div class="banner_info-quantity">
+                            +200
+                        </div>
+                        <div class="banner_info-subject">
+                            courses
+                        </div>
+                    </div>
+
+                    <div class="banner_info">
+                        <div class="banner_info-quantity">
+                            +15
+                        </div>
+                        <div class="banner_info-subject center">
+                           <p class="banner_info-subject--word">thousand</p>  
+                           <p class="banner_info-subject--word">followers</p>
+                        </div>
+                    </div>
+                    
+                    <div class="banner_info">
+                        <div class="banner_info-quantity">
+                            10
+                        </div>
+                        <div class="banner_info-subject center">
+                           <p class="banner_info-subject--word">year</p>  
+                           <p class="banner_info-subject--word">experrience</p>
+                        </div>
+                    </div>
+
+                    <div class="banner_info">
+                        <div class="banner_info-quantity">
+                            200
+                        </div>
+                        <div class="banner_info-subject">
+                            postcad
+                        </div>
+                    </div>
+                </div>     
+
+                <!-- My work -->
+                <div class="contOne">
+                    <div class="contOne_le">
+                        <div class="block blockOne">
+                        </div>
+
+                        <h3 class="contOne_le-title">
+                            A few words About My Work
+                        </h3>
+
+                        <p class="contOne_le-para">
+                            A few words about your product/offer.
+                            Focus on the benefits not the features.
+                            Explain how your product will improve your customer's life.
+                            A few words about your product/offer.
+                            Focus on the benefits not the features.
+                            Explain how your product will improve your customer's life.
+                        </p>
+
+                        <div class="button_signin center">
+                            Register Now!
+                        </div>
+                    </div>
+
+                    <div class="contOne_ri">
+                        <div class="contOne_ri-block"></div>
+                        <img class="contOne_ri-img" src="./Img/sub_b1.png" alt="sub_b1">
+                        <div class="contOne_ri-follow">
+                            <p class="contOne_ri-para">Follow me on: </p>
+                            <ul class="contOne_ri-icon">
+                                <li class="ti-facebook contOne_ri-fb"></li>
+                                <li class="ti-instagram contOne_ri-in"></li>
+                                <li class="ti-youtube contOne_ri-yo"></li>
+                            </ul>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contTwo">
+                    <div class="contTwo_wrap">
+                        <div class="contTwo_block">
+                            <div class="block blockTwo">
+                            </div>
+                        </div>
+                        <p class="contTwo_ti">Strong Point About Your Webinar</p>
+                        <div class="contTwo_con">
+                            <div class="contTwo_po center">
+                                <div class="contTwo_po-img">
+                                    <div class="contTwo_po-num center">1</div>
+                                    <div class="contTwo_po-cir center">
+                                        <i class="ti-slice contTwo_po-icon1"></i>
+                                    </div>
+                                </div>
+                                <p class="contTwo_po-ti">Strong Point 1</p>
+                                <p class="contTwo_po-pa">
+                                    A few words about your <b>product/offer</b>. 
+                                    Focus on the benefits not the features.
+                                    Explain how your product will improve your customer's life
+                                </p>
+                            </div>
+        
+                            <div class="contTwo_po center">
+                                <div class="contTwo_po-img">
+                                    <div class="contTwo_po-num center">2</div>
+                                    <div class="contTwo_po-cir center">
+                                        <i class="ti-arrow-top-right contTwo_po-icon2"></i>
+                                    </div>
+                                </div>
+                                <p class="contTwo_po-ti">Strong Point 2</p>
+                                <p class="contTwo_po-pa">
+                                    A few words about your <b>product/offer</b>. 
+                                    Focus on the benefits not the features.
+                                    Explain how your product will improve your customer's life
+                                </p>
+                            </div>
+        
+                            <div class="contTwo_po center">
+                                <div class="contTwo_po-img">
+                                    <div class="contTwo_po-num center">3</div>
+                                    <div class="contTwo_po-cir center">
+                                        <i class="ti-gift contTwo_po-icon3"></i>
+                                    </div>
+                                </div>
+                                <p class="contTwo_po-ti">Strong Point 3</p>
+                                <p class="contTwo_po-pa">
+                                    A few words about your <b>product/offer</b>. 
+                                    Focus on the benefits not the features.
+                                    Explain how your product will improve your customer's life
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contThree">
+                    <div class="blockWater contThree_blockWater">
+
+                    </div>
+
+                    <div class="conThree_box">
+
+                        <div class="contThree_box-cir circle">
+
+                        </div>
+
+                        <p class="contThree_ti">
+                            The webinar will start in:
+                        </p>
+
+                        <div class="contThree_timeWrap">
+                            <div class="contThree_time center">
+                                <div class="contThree_time-number center">
+                                    00
+                                </div>
+                                <div class="contThree_time-word">
+                                    Days
+                                </div>
+                            </div>
+
+                            <div class="contThree_time center">
+                                <div class="contThree_time-number center">
+                                    00
+                                </div>
+                                <div class="contThree_time-word">
+                                    Hours
+                                </div>
+                            </div>
+
+                            <div class="contThree_time center">
+                                <div class="contThree_time-number center">
+                                    00
+                                </div>
+                                <div class="contThree_time-word">
+                                    Minutes
+                                </div>
+                            </div>
+
+                            <div class="contThree_time center">
+                                <div class="contThree_time-number center">
+                                    00
+                                </div>
+                                <div class="contThree_time-word">
+                                    Seconds
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="button_signin contThree_button center">
+                            Register Now!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contTwo">
+                    <div class="contTwo_wrap">
+                        <div class="contTwo_block">
+                            <div class="block blockTwo">
+                            </div>
+                        </div>
+                        <p class="contTwo_ti">Dedicate receivers group</p>
+                        <div class="contTwo_con contFour_con">
+                            <div class="contTwo_po center">
+                                <div class="contTwo_po-img">
+                                    <div class="contFour_block contFour_blockOne"></div>
+                                    <img src="./Img/students.png" alt="" class="contThree_img">
+                                </div>
+                                <p class="contTwo_po-ti">Students</p>
+                                <p class="contTwo_po-pa">
+                                    A few sentences about your product.
+                                    How it help to solve clients' problems.
+                                </p>
+                            </div>
+        
+                            <div class="contTwo_po center">
+                                <div class="contTwo_po-img contFour_img2">
+                                    <div class="contFour_block contFour_blockTwo"></div>
+                                    <img src="./Img/teachers.png" alt="" class="contFour_img">
+                                </div>
+                                <p class="contTwo_po-ti">Teachers</p>
+                                <p class="contTwo_po-pa">
+                                    A few sentences about your product.
+                                    How it help to solve clients' problems.
+                                </p>
+                            </div>
+        
+                            <div class="contTwo_po center">
+                                <div class="contTwo_po-img">
+                                    <div class="contFour_block contFour_blockThree"></div>
+                                    <img src="./Img/employees.png" alt="" class="contFour_img">
+                                </div>
+                                <p class="contTwo_po-ti">IT employees</p>
+                                <p class="contTwo_po-pa">
+                                    A few sentences about your product.
+                                    How it help to solve clients' problems.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contTwo">
+                    <div class="contTwo_wrap contFive center">
+                        <div class="contTwo_block">
+                            <div class="block blockTwo">
+                            </div>
+                        </div>
+                        <p class="contTwo_ti">What will you learn?</p>
+                        <p class="contFive_pa">A supporting statement for your value propositionto encourage customers to complete your CTA</p>
+                        <div class="contFive_cont">
+                            <div class="contFive_boxNu">
+                                <p class="contFive_boxNu-num">
+                                    1
+                                </p>
+                            </div>
+                            <div class="contFive_des">
+                                <p class="contFive_des-ti">
+                                   A supporting statement for your value proposition to encourage customers to complete your CTA
+                                </p>
+                                <p class="contFive_des-pa">
+                                    A few words about your product/offer. Focus on the benefits not the features. Explain how your product will improve your customer's life. A few words about your product/offer. Focus on the benefits not the features. Explain how your product will improve your customer's life
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="contFive_cont">
+                            <div class="contFive_boxNu">
+                                <p class="contFive_boxNu-num">
+                                    2
+                                </p>
+                            </div>
+                            <div class="contFive_des">
+                                <p class="contFive_des-ti">
+                                   A supporting statement for your value proposition to encourage customers to complete your CTA
+                                </p>
+                                <p class="contFive_des-pa">
+                                    A few words about your product/offer. Focus on the benefits not the features. Explain how your product will improve your customer's life. A few words about your product/offer. Focus on the benefits not the features. Explain how your product will improve your customer's life
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="contFive_cont">
+                            <div class="contFive_boxNu">
+                                <p class="contFive_boxNu-num">
+                                    3
+                                </p>
+                            </div>
+                            <div class="contFive_des">
+                                <p class="contFive_des-ti">
+                                   A supporting statement for your value proposition to encourage customers to complete your CTA
+                                </p>
+                                <p class="contFive_des-pa">
+                                    A few words about your product/offer. Focus on the benefits not the features. Explain how your product will improve your customer's life. A few words about your product/offer. Focus on the benefits not the features. Explain how your product will improve your customer's life
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="button_signin center">
+                            Register Now!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contTwo ">
+                    <div class="contTwo_wrap contSix">
+                        <div class="contTwo_block">
+                            <div class="block blockTwo">
+                            </div>
+                        </div>
+    
+                        <p class="contTwo_ti">Social Proof</p>
+    
+                        <div class="contSix_comment contSix_commentSpace">
+                            <div class="circle circleOne"></div>
+                            <div class="contSix_commentImg">
+                                <img src="./Img/smith.png" alt="" class="contSix_commentImg-peo">
+                            </div>
+                            <div class="contSix_commentDes">
+                                <p class="contSix_commentDes-pa">
+                                    A few words about your product/offer.
+                                    Focus on the benefits not the features.
+                                    Explain how your product will improve your customer's life.
+                                    A few words about your product/offer.
+                                </p>
+                                <p class="contSix_commentDes-na">
+                                    John Smith
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="contSix_comment-wrap contSix_commentSpace">
+                            <div class="contSix_comment contSix_commentTwo">    
+                                <div class="circle circleTwo"></div>                        
+                                <div class="contSix_commentImg">
+                                    <img src="./Img/baker.png" alt="" class="contSix_commentImg-peo contSix_commentImg-Two">
+                                </div>
+                                <div class="contSix_commentDes contSix_commentDes-Two">
+                                    <p class="contSix_commentDes-pa">
+                                        A few words about your product/offer.
+                                        Focus on the benefits not the features.
+                                        Explain how your product will improve your customer's life.
+                                        A few words about your product/offer.
+                                    </p>
+                                    <p class="contSix_commentDes-naTwo">
+                                        Amanda Baker
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+    
+                        <div class="contSix_comment">
+                            <div class="circle CircleThree"></div>
+                            <div class="contSix_commentImg">                           
+                                <img src="./Img/walker.png" alt="" class="contSix_commentImg-peo">
+                            </div>
+                            <div class="contSix_commentDes">
+                                <p class="contSix_commentDes-pa">
+                                    A few words about your product/offer.
+                                    Focus on the benefits not the features.
+                                    Explain how your product will improve your customer's life.
+                                    A few words about your product/offer.
+                                </p>
+                                <p class="contSix_commentDes-na">
+                                    Michael Walker
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+                    
+            <div id="footer">
+                <div class="contTwo footer_background">
+                    <div class="contTwo_wrap contSeven center">
+                        <div class="contSeven_wrap">
+                        </div>
+                        <div class="blockWater footer_blockWater">
+                            
+                        </div>
+                        <div class="contSeven_circle">
+
+                        </div>
+
+                        <div class="contTwo_block">
+                            <div class="block blockTwo">
+                            </div>
+                        </div>
+
+                        <p class="contTwo_ti">Sign up for the webinar</p>
+                        
+                        <div class="header_schedule">
+                            <span class="header_schedule-paragraph">Let's meet on</span>
+                            <span class="header_schedule-time">
+                                <span class="header_schedule-time--red">February 12</span> at <span class="header_schedule-time--red">6.30</span> pm
+                            </span>
+                        </div>
+
+                        <div class="contSeven_status">
+                            <span class="contSeven_statusPa">ONLINE</span>
+                            <i class="ti-desktop contSeven_statusIcon"></i>
+                        </div>
+
+                        <p class="contThree_ti">
+                            The webinar will start in:
+                        </p>
+
+                        <div class="contThree_timeWrap">
+                            <div class="contThree_time center">
+                                <div class="contThree_time-number center">
+                                    00
+                                </div>
+                                <div class="contThree_time-word">
+                                    Days
+                                </div>
+                            </div>
+
+                            <div class="contThree_time center">
+                                <div class="contThree_time-number center">
+                                    00
+                                </div>
+                                <div class="contThree_time-word">
+                                    Hours
+                                </div>
+                            </div>
+
+                            <div class="contThree_time center">
+                                <div class="contThree_time-number center">
+                                    00
+                                </div>
+                                <div class="contThree_time-word">
+                                    Minutes
+                                </div>
+                            </div>
+
+                            <div class="contThree_time center">
+                                <div class="contThree_time-number center">
+                                    00
+                                </div>
+                                <div class="contThree_time-word">
+                                    Seconds
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contSevenSignUp center">
+                            
+                            <div class="contSevenSignUp_wrap">
+                                <div class="contSevenSignUp-name">
+                                    <label for="" class="contSevenSignUp-namePa" >Your Name</label>
+                                    <input type="text" class="contSevenSignUp-nameIn">
+                                </div>
+        
+                                <div class="contSevenSignUp-name">
+                                    <label for="" class="contSevenSignUp-namePa" >E-mail</label>
+                                    <input type="mail" class="contSevenSignUp-nameIn">
+                                </div>
+        
+                                <div class="contSevenSignUp-name">
+                                    <label for="" class="contSevenSignUp-namePa" >Date</label>
+                                    <input type="date" class="contSevenSignUp-nameIn contSevenSignUp-nameIn--Date">
+                                </div>
+        
+                                <div class="contSevenSignUp-name">
+                                    <label for="" class="contSevenSignUp-namePa" >message</label>
+                                    <textarea name="" id="" cols="" rows="" class="contSevenSignUp-nameIn--Mes"></textarea>
+                                </div>
+        
+                                <div class="contSevenSignUp_CB">
+                                    <input type="checkbox">
+                                    <label for="">checkbox</label>
+                                </div>    
+                            </div>
+
+                            <div class="button_signin center">
+                                Register Now!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>

@@ -15,16 +15,24 @@
 }
 
 /*Header*/
-#header{
-    position: relative; 
+.header{
     background-image: url("../Img/background.png");
-    height: 100vh;
-    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header_right{
+    position: relative;
+    top: 4px;
 }
 
 .header_talk{
-    width: 214px;
-    height: 182px;
+    width: 38%;
+    height: 23%;
     background-color: white;
     border-top-left-radius: 4px;
     border-top-right-radius: 100px;
@@ -33,24 +41,23 @@
     box-shadow: 1px 5px 20px rgba(78,78,128,0.1);
     font-size: 2rem;
     position: absolute;
-    top: 300px;
-    right: 256px;
-    z-index: 1;
+    top: 38%;
+    right: 3%;
     text-align: center;
+    z-index: 1;
 }
 
 .header_hi{
-    width: 144px;
-    height: 152px;
+    width: 26%;
+    height: 20%;
     background-color: rgb(255, 203, 102);
     border-top-left-radius: 900px;
     border-top-right-radius: 900px;
     border-bottom-right-radius: 900px;
     position: absolute;
-    top: 18px;
-    right: 270px;
+    top: 4%;
+    right: 3%;
     z-index: 1;
-
 }
 
 .header_hi-icon{
@@ -59,52 +66,43 @@
 }
 
 .header_li{
-    width: 100px;
-    height: 108px;
-    border: 4px solid white;
+    width: 21%;
+    height: 15%;
+    border: 3px solid white;
     border-top-left-radius: 900px;
     border-bottom-left-radius: 900px;
     border-bottom-right-radius: 900px;
     position: absolute;
-    top: 212px;
-    right: 670px;
+    top: 24%;
+    left: 5%;
     z-index: 1;
 }
 
 .header_block{
-    width: 491px;
-    height: 307px;
+    width: 87%;
+    height: 44%;
     background-image: linear-gradient(rgba(95, 255, 255, 0.1), rgb(87, 238, 249));
     position: absolute;
-    right: 334px;
-    top: 157px;
-}
-
-.wrap_header{
-    position: absolute;
-    left: 271px;
-    right: 271px;
+    right: 13%;
+    top: 22%;
 }
 
 .header_people{
-    display: block;
-    position: absolute;
-    top: 36px;
-    right: 0;
-    width: 513px;
-    height: 701px;
+    bottom: 4px;
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 /* information of header */
-.information{
-    position: absolute;
-    left: 271px;
+
+.header_left{
+    
 }
 
-/*Logo */
 .logo{
     font-size: 1.5rem;
-    line-height: 28.6px;
+    line-height: 1.8rem;
     margin: 60px 0 80px 0;
 }
 
@@ -124,24 +122,35 @@
 }
 
 .header_description-tilte{
-    font-size: 51px;
+    font-size: 3.2rem;
     line-height: 61.2px;
+    margin-bottom: 36px;
+}
+
+.header_description-tilte > p{
+    font-size: 3rem;
 }
 
 .header_description-paragraph{
-    font-size: 18px;
-    line-height: 27px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7rem;
+    margin-bottom: 36px;
+}
+
+.header_description-paragraph > span{
+    font-size: 1.2rem;
 }
 
 .header_description-product{
     margin: 0;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 /* Meeting schedule*/
 .header_schedule{
-    margin: 36px 0 36px 0;
+    margin: 36px 0 36px 16px;
     font-size: 19px;
     line-height: 24.7px;
     display: flex;
@@ -150,26 +159,26 @@
 }
 
 .header_schedule-paragraph{
-
+    font-size: 1.2rem;
 }
 
 .header_schedule-time{
-    margin-left: 10px;
+    
 }
 
 .header_schedule-timeStyle{
     display: flex;
     align-items: center;
-    line-height: 42px;
-    font-weight: 700;
-    width: 313px;
-    height: 42px;
+    flex-wrap: wrap;
+    font-weight: 500;
+    width: 326px;
     padding: 12px;
     background-image: linear-gradient(90deg, #ffe1e4, rgba(208, 188, 255, 0.41)); 
 }
 
 .header_schedule-time--red{
     color: rgb(255, 91, 102);
+    font-size: 1.2rem;
 }
 
 .header_schedule-time--alignDay{
@@ -187,7 +196,7 @@
 }
 
 .button_signin{
-    width: 216px;
+    width: 182px;
     height: 52px;
     background-color: rgb(134, 106, 227);
     color: rgb(255, 255, 255);
@@ -199,10 +208,11 @@
 }
 
 .header_button-readmore{
-    width: 111px;
-    height: 49.6px;
+    width: 107px;
+    height: 52px;
     border-bottom: 2.4px solid rgb(38, 38, 91); 
     margin-left: 30px;
+    font-size: 1.2rem;
 }
 
 /*Main*/
@@ -235,7 +245,7 @@
 }
 
 .banner_info-subject{
-    font-size: 18px;
+    font-size: 1.2rem;
     position: relative;
     top: 40px;
     flex-direction: column;
